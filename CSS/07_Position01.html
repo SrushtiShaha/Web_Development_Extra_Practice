@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body{
+            position: relative;
+        }
+        #Container-Position{
+            border: 1px solid red;
+            position: absolute;
+            left: 100px;
+        }
+        #Container-Position div{
+            height: 200px;
+            width: 200px;
+            border: 1px solid blue;
+            margin: 5px;
+            position: absolute;
+        }
+        #Demo01{
+            top: 50px;
+            left: 30px;
+            z-index: 1;
+        }
+        #Demo02{
+            top: 60px;
+            left: 50px;
+            z-index: 4;
+        }
+        #Demo03{
+            top: 80px;
+            left: 70px;
+            z-index: 2;
+        }
+        #Demo04{
+            top: 100px;
+            left: 90px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div id="Container-Position">
+        <div id="Demo01" style="background-color: red;">Demo Text 01</div>
+        <div id="Demo02" style="background-color: blue;">Demo Text 01</div>
+        <div id="Demo03" style="background-color: brown;">Demo Text 01</div>
+        <div id="Demo04" style="background-color: yellow;">Demo Text 01</div>
+    </div>
+</body>
+</html>
