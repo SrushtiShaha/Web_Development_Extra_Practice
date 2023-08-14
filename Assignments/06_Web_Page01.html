@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        #head{
+            width: 100%;
+            background-color: rgba(11, 193, 244, 0.45);
+        }
+        #head div{
+            display: inline-block;
+        }
+        #head h2{
+            width: 100%;
+            size: 60px;
+            text-align: center;
+            margin-top: 50px;
+            color: rgb(4, 0, 255);
+        }
+        #logo{
+            height: 100px;
+            width:100px;
+            text-align: right;
+            margin-left: 40px;
+        }
+        #title{
+            position: relative;
+            bottom: 30px;
+            width: 90%;
+        }
+        nav{
+            background-color: rgba(95, 95, 230, 0.626);
+        }
+        .navbar{
+            margin-left: 230px;
+            padding: 20px;
+            font-size: 20px;
+            display: inline-block;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            background-color: rgba(128, 32, 217, 0.541);
+        }
+        #container{
+            background-color: aquamarine;
+        }
+        #container div{
+            display: inline-block;
+        }
+        #Pie-img{
+            width: 60%;
+            height: 100%;
+            /* border: 1px solid; */
+        }
+        #Pie-img img{
+            height: 100%;
+            width: 60%;
+        }
+        #PieChart{
+            display: block;
+            padding: 100px;
+            padding-right: 220px;
+            width: 200px;
+            border-radius: 50%;
+            background: conic-gradient(
+                gainsboro 0 25%,
+                hotpink 25% 60%,
+                blueviolet 60% 100%
+            );
+        }
+        #p01{
+            text-align: right;
+            margin-left: 250px;
+        }
+        #p03{
+            text-align: end;
+            margin-top: 150px;
+        }
+        #card{
+            display: inline-block;
+            background-color:rgb(219, 191, 245);
+        }
+        #card h2{
+            color: red;
+            text-align: center;
+            padding: 20px;
+        }
+        #card p{
+            color: brown;
+        }
+        #card01{
+            display: inline-block;
+            text-align: center;
+            width: 30.1%;
+            padding: 20px;
+        }
+        #c_img{
+            height: 150px;
+            width: 500px;
+        }
+        #card02{
+            display: inline-block;
+            text-align: center;
+            width: 30.1%;
+            padding: 20px;
+        }
+        #cpp_img{
+            height: 150px;
+            width: 500px;
+        }
+        #card03{
+            display: inline-block;
+            text-align: center;
+            width: 30.1%;
+            padding: 20px;
+        }
+        #web_img{
+            height: 150px;
+            width: 500px;
+        }
+        #block p{
+            margin: 10px;
+            width: 100%;
+            padding: 0;
+            color: rgb(115, 0, 255);
+        }
+        #blockin{
+            background-color: rgb(12, 164, 214);
+        }
+        #blockin div{
+            display: inline-block;
+            margin-left: 230px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        footer{
+            width: 100%;
+            background-color: rgb(59, 147, 177);
+        }
+        ul > li{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="head">
+        <div id="title">
+            <h2>Fork Infosystems</h2>
+        </div>
+        <div>
+            <img src="../Assets/Fork.PNG" alt="Logo" id="logo">
+        </div>
+    </header>
+    <nav>
+        <div class="navbar"><a href="#">Home</a></div>
+        <div class="navbar"><a href="#">About</a></div>
+        <div class="navbar"><a href="#">Contact</a></div>
+        <div class="navbar"><a href="#">Help</a></div>
+    </nav>
+    <div id="container">
+        <div id="Pie-img">
+            <img src="../Assets/Class.jpg" alt="Class Image" id="class_image">
+        </div>
+        <div id="PieChart">
+            <p id="p01">Web</p>
+            <p id="p02">C++</p>
+            <p id="p03">C</p>
+        </div>
+    </div>
+    <div id="card">
+        <div id="card01">
+            <h2>C</h2>
+            <img src="../Assets/C_Language.png" alt="C" id="c_img">
+            <p>C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of AT&T Labs. It was mainly developed as a system programming language to write the UNIX operating system.It was first implemented on the Digital Eqquipment Corporation PDP-11 computer in 1972.</p>
+        </div>
+        <div id="card02">
+            <h2>C++</h2>
+            <img src="../Assets/CPP_Language.jpg" alt="CPP" id="cpp_img">
+            <p>C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.</p>
+        </div>
+        <div id="card03">
+            <h2>Web</h2>
+            <img src="../Assets/Web.jpg" alt="Web" id="web_img">
+            <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. </p>
+        </div>
+    </div>
+    <div id="block">
+        <div id="blockin">
+            <div>Events</div>
+            <div>Seminars</div>
+            <div>Guest</div>
+            <div>Workshop</div>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate ab dicta aliquid a earum assumenda, quia deleniti fuga! Exercitationem reprehenderit ad officia fugiat praesentium voluptatem eligendi quam inventore dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aut est quae illo iure ducimus eligendi velit rerum obcaecati praesentium quibusdam, nulla consequuntur explicabo voluptatum quasi tenetur? Consequatur, saepe esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit accusantium illo molestias architecto quasi corrupti nisi repellendus et consequatur, rerum qui, laborum fugit in quisquam perspiciatis veniam similique repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab laborum dolor in ut rem quibusdam error possimus, asperiores, esse nisi ducimus tempore corrupti velit voluptatem reiciendis! At, deserunt! Sint, sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ex, dolor recusandae labore praesentium voluptates delectus accusamus consectetur, officia est placeat qui porro necessitatibus cumque expedita eveniet voluptatem quisquam.</p>
+    </div>
+    <footer>
+        <ul>
+            <li>Fork Infosystems</li>
+            <li>Email : forkinfosystems@gmail.com</li>
+            <li>No : 8976554356</li>
+            <li>Address : Karad</li>
+        </ul>
+    </footer>
+</body>
+</html>
